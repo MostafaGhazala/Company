@@ -1,0 +1,16 @@
+﻿@model DepartmentViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Department Details</h1>
+<div>
+    <partial name="PartialView/DetailsDeletePartialView" />
+    
+    @*<input type="submit" value="Save" class="btn btn-primary"||*@
+    <a asp-action="Index" class="btn btn-light">Back To List</a>||
+    <a asp-action="Edit" class="btn btn-secondary">Edit</a> ||
+    
+
+</div>
+
